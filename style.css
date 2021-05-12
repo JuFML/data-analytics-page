@@ -1,0 +1,65 @@
+* {
+    margin:0px;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+    
+}
+
+div.quadrado {
+    width: 70vw;
+    height: 25vw;
+    background-color: hsl(244, 38%, 16%);
+    margin-top: 10%;
+    margin-bottom: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+}
+
+.imagem {
+    float: right;
+    background-image: url("image-header-desktop.jpg");
+    width: 50%;
+    height: 25vw;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    opacity: 25%;
+}
+.texto {
+    float: left;
+    margin-top: 5vw;
+    margin-left: 2vw;
+    color:hsl(0, 0%, 100%);
+    margin-left: 3.5vw;
+    font-size: 1.2vw;
+}
+
+pre {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    font-size: 1vw;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 22px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+div .hbig1, .hbig2, .hbig3 {
+    display: inline-block;
+    flex-direction: row;
+    margin-top: 300px;
+}
+
+div .hbig1 {
+    margin-left: 50px;
+}
+
+
+
