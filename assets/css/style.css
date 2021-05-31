@@ -67,7 +67,7 @@ body {
     border-bottom-right-radius: 10px;
 }
 .container-left--numbers {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
@@ -115,7 +115,7 @@ footer .attribution {
         border-bottom-right-radius: 0px;
     }
     .container-left {
-        padding-top: 30px;
+        padding-top: 25px;
         padding-left: 30px;
         padding-right: 30px;   
         height: 65%;
@@ -140,8 +140,8 @@ footer .attribution {
         flex-direction: column;
         text-align: center;
         justify-content: space-between;
-        padding-top: 10px;
-        padding-bottom: 0px;
+        padding-top: 2px;
+        padding-bottom: 15px;
     }
     .container-left--numberarea {
         display: flex;
@@ -183,15 +183,18 @@ footer .attribution {
     }
     .container-left--numbers {        
         padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .container-left--numbers div:last-child {
+        margin-right: 20px;
     }
     .container-left--numbers h1 {
         font-size: 20px;
     }
     .container-left--numbers p {
         font-size: 11px;
-    }
+    }    
     footer .attribution {
         font-size: 12px;
-    }
-    
+    }    
 }
