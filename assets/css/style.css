@@ -21,7 +21,7 @@ body {
     background-color: hsl(244, 38%, 16%);
     border-radius: 10px;
 }
-.container-left {
+.container__left {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -31,27 +31,27 @@ body {
     padding-left: 60px;
     padding-right: 60px;
 }
-.container-left h1 {
+.container__left h1 {
     color: hsl(0, 0%, 100%);
 }
-.container-left--title h1 {
+.container__left__title h1 {
     font-size: 35px;
 }
-.container-left--numbers h1 {
+.container__left__numbers h1 {
     font-size: 33px;
 }
-.container-left span {
+.container__left span {
     color: hsl(277, 64%, 61%);
 }
-.container-left p {
+.container__left p {
     color: hsla(0, 0%, 100%, 0.6);    
 }
-.container-left--text p {
+.container__left__text p {
     padding-top: 20px;
     font-size: 20px;
     line-height: 30px;
 }
-.container-right {
+.container__right {
     height: 100%;
     width: 50%;
     background-image: url(../images/image-header-desktop.jpg);
@@ -59,24 +59,24 @@ body {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.container-right--bg {
+.container__right--bg {
     width: 100%;
     height: 100%;
     background-color:rgba(170, 92, 219, 0.6);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.container-left--numbers {
+.container__left__numbers {
     padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
 }
-.container-left--numbers p {
+.container__left__numbers p {
     font-size: 15px;
     padding-top: 5px;
 }
-footer .attribution {
+.footer__attribution {
     font-size: 18px;
     width: 100%;
     text-align: center;
@@ -102,60 +102,60 @@ footer .attribution {
         margin-left: 20px;     
         padding-bottom: 10px;     
     }    
-    .container-right {
+    .container__right {
         order: -1;  
         height: 35%;
         width: 100%; 
         border-top-left-radius: 10px;
         border-bottom-right-radius: 0px;
     }
-    .container-right--bg {
+    .container__right--bg {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 0px;
     }
-    .container-left {
+    .container__left {
         padding-top: 25px;
         padding-left: 30px;
         padding-right: 30px;   
         height: 65%;
         width: 100%;
     }
-    .container-left--title {
+    .container__left__title {
         width: 100%;
         align-items: center;
     }
-    .container-left--title h1 {
+    .container__left__title h1 {
         font-size: 27px;
         text-align: center;
         line-height: 25px;
     }
-    .container-left--text p {
+    .container__left__text p {
         padding-top: 15px;
         font-size: 15px;
         line-height: 20px;
         text-align: center;
     }    
-    .container-left--numbers {
+    .container__left__numbers {
         flex-direction: column;
         text-align: center;
         justify-content: space-between;
         padding-top: 2px;
         padding-bottom: 15px;
     }
-    .container-left--numberarea {
+    .container__left__numberarea {
         display: flex;
         flex-direction: column;
         padding-top: 20px;
         justify-content: flex-end;
     }
-    .container-left--numbers h1 {
+    .container__left__numbers h1 {
         font-size: 25px;
     }
-    .container-left--numberarea p {
+    .container__left__numberarea p {
         font-size: 11px;
     }
-    footer .attribution {
+    .footer__attribution {
         font-size: 11px;
         position: absolute;
         bottom: 0px;
@@ -168,32 +168,32 @@ footer .attribution {
         margin-right: 100px;
         margin-left: 100px;        
     }
-    .container-left {
+    .container__left {
         padding-top: 30px;
         padding-left: 30px;
         padding-right: 30px;
     }
-    .container-left--title h1 {
+    .container__left__title h1 {
         font-size: 24px;
     }
-    .container-left--text p {
+    .container__left__text p {
         font-size: 15px;
         line-height: 18px;
     }
-    .container-left--numbers {        
+    .container__left__numbers {        
         padding-top: 30px;
         padding-bottom: 20px;
     }
-    .container-left--numbers div:last-child {
+    .container__left__numbers div:last-child {
         margin-right: 20px;
     }
-    .container-left--numbers h1 {
+    .container__left__numbers h1 {
         font-size: 20px;
     }
-    .container-left--numbers p {
+    .container__left__numbers p {
         font-size: 11px;
     }    
-    footer .attribution {
+    .footer__attribution {
         font-size: 12px;
     }    
 }
